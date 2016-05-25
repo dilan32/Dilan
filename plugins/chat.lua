@@ -1,111 +1,87 @@
+#Ðɪℓαη ♡ sαяα:
 local function run(msg)
-if msg.text == "ARJ" then
-	return " جونم ؟ چی شده؟"
-end
-if msg.text == "A.R.J" then
-	return "بله ، کاری داری ؟"
-end
 if msg.text == "hi" then
-	return "سلام...  اگه میشه فارسی تایپ کن"
+  return "سلام👻"
 end
-if msg.text == "ربات" then
-	return "بله؟"
+if msg.text == "Hi" then
+  return "سلام👻"
+end
+if msg.text == "Hello" then
+  return "سلام👻"
+end
+if msg.text == "hello" then
+  return "سلام👻"
 end
 if msg.text == "Salam" then
-	return "سلام علیکم ، فارسی تایپ کن"
+  return "علیک👻"
 end
 if msg.text == "salam" then
-	return "و علیکومو سلام ، فارسی تایپ کن لطفا"
+  return "علیک سلام👻"
 end
-if msg.text == "bashe" then
-	return "تکون نخور لاشه"
+if msg.text == "dilan" then
+  return "jun👻"
 end
-if msg.text == "Bashe" then
-	return "بشین چشات وا شه"
+if msg.text == "Dilan" then
+  return "joon👻"
 end
-if msg.text == "bot" then
-	return "بله ؟"
+if msg.text == "دیلی" then
+  return "بنال👻"
 end
-if msg.text == "sik :D" then
-	return " مودب باش رباتِ بی تلبیت"
-end
-if msg.text == "kooni" then
-	return "فحش نده"
-end
-if msg.text == "suck it" then
-	return "مودب باش"
-end
-if msg.text == "؟" then
-	return "بله ؟"
-end
-if msg.text == "bye" then
-	return "بای عشقم"
-end
-if msg.text == "Bye" then
-	return "خدافظ ، مواظب زیباییت باش"
-end
-if msg.text == "گه نخور" then
-        return "من تو رو نمیخورم"
-end
-if msg.text == "کس ننت" then
-	return "با مِیمَنَت ، اینم سند ، تو شرتو کرستِ ننت"
-end
-if msg.text == "ببخشید" then
-	return "خدا ببخشه"
-end
-if msg.text == "بای" then
-        return "خدافظ ، مراقب زیباییات باش."
-end
-if msg.text == "کسکش" then
-        return "فحش نده 😡"
+if msg.text == "دیلان" then
+  return "جانه دیلان👻"
 end
 if msg.text == "سلام" then
-        return "سلام عزیزم 🌷"
+  return "علیـک👻"
 end
-if msg.text == "خستم" then
-        return "خسته نباشی دلاور"
+if msg.text == "slm" then
+  return "سلام👻"
 end
-if msg.text == "خیلی خستم" then
-        return "خسته نباشی پهلوون"
+if msg.text == "Slm" then
+  return "سلام👻"
 end
-if msg.text == "Difense" then
-        return "با عموم چکار داری ؟"
+if msg.text == "سارا" then
+  return "سارا خانوم😒"
 end
-if msg.text == "difense" then
-        return "با عموم چکار داری ؟"
+if msg.text == "بای" then
+  return "اودافظ👻"
+end
+if msg.text == "خدافظ" then
+  return "بابای👻"
+end
+if msg.text == "bye" then
+  return "اودافظ👻"
+end
+if msg.text == "خب" then
+  return "خب ☹️"
+end
+if msg.text == "ببیی" then
+  return "کیرررر 😒"
+end
+if msg.text == "@dilan" then
+  return "بکنته👻"
 end
 end
 
 return {
-	description = "Chat With Robot Server", 
-	usage = "chat with robot",
-	patterns = {
-		"^[Hh]i$",
-		"^[Hh]ello$",
-		"^[Zz]ac$",
-		"^ZAC$",
-		"^[Bb]ot$",
-		"^[Uu]mbrella$",
-		"^[Bb]ye$",
-		"^?$",
-		"^[Ss]alam$",
-                "^[Gg]oh nakhor$",
-                "^sik :D$",
-                "^[Bb]ashe$",
-                "^ARJ$",
-                "^A.R.J$",
-                "^[Dd]ifense$",
-                "^گه نخور$",
-                "^ربات$",
-                "^کس ننت$",
-                "^ببخشید$",
-                "^بای$",
-                "^کسکش$",
-                "^سلام$",
-                "^خستم$",
-                "^خیلی خستم$",
-		}, 
-	run = run,
-    --privileged = true,
-	pre_process = pre_process
+  description = "Chat With Robot", 
+  usage = "chat with robot",
+  patterns = {
+    "^[Hh]i$",
+    "^[Hh]ello$",
+    "^سلام$",
+    "^[Dd]ilan$",
+    "^[Bb]ye$",
+    "^[Ss]alam$",
+    "^سارا$",
+    "^@dilan$",
+    "^خدافظ$",
+    "^ببیی$",
+    "^خب$",
+    "^بای$",
+    "^[Ss]lm$",
+    "^دیلی$",
+    "^دیلان$",
+    }, 
+  run = run,
+  pre_process = pre_process
 }
